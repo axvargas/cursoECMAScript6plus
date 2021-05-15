@@ -164,6 +164,7 @@ import  {hello}  from './module.mjs'
 console.log(hello())
 
 
+// * Generator functions
 function* helloworld() {
     if(true){
         yield "Hello, "
