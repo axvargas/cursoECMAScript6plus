@@ -61,7 +61,7 @@ let {name, age} = person
 console.log(name, age)
 
 
-// * Propagation operator
+// * Spread operator
 let team1 = ["Andrew", "Palula", "Ale"]
 
 let team2 = ["Carla", "Joshua", "Soledad"]
