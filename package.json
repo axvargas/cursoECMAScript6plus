@@ -1,0 +1,16 @@
+{
+  "name": "cursoecmascript",
+  "version": "1.0.0",
+  "description": "Understanding ecmacscript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecmascript",
+    "js"
+  ],
+  "author": "Andres X. Vargas",
+  "license": "ISC",
+  "type": "module" 
+}
