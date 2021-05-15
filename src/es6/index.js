@@ -160,7 +160,7 @@ const calc = new Calculator()
 console.log(calc.sum(2, 2))
 
 // * Import/Export
-import  {hello}  from './module.js'
+import  {hello}  from './module.mjs'
 console.log(hello())
 
 
