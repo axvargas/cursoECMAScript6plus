@@ -166,14 +166,16 @@ console.log(hello())
 
 // * Generator functions
 function* helloworld() {
-    if(true){
+    if(false){
         yield "Hello, "
+    } else{
+        yield "NO way"
     }
     if (true){
         yield "World"
     }
 }
 const generatorHello = helloworld()
-console.log(generatorHello.next().value)
+console.log(generatorHello.next())
 console.log(generatorHello.next().value)
 console.log(generatorHello.next().value)
